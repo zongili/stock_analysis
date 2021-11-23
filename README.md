@@ -7,19 +7,29 @@ This project allows you to test VBA skills that is covered in Module 2 with usin
 ## Results
 In the original module code it takes 0.9453 seconds to create the volume table for each ticker using 2017 data but in the refactored vbs code it takes 0.1210 seconds to create the volume table for each ticker using 2017 data. It runs faster with the vb script code; about 0.8243 seconds faster.
 This image shows the result of the refactoring table for the 2017 data
+
 ![This image shows the result of the refactoring table for the 2017 data](resources/2017_refactored_stockanalysistable.PNG)
+
 This image shows the result of the refactoring table runtime in seconds for the 2017 data
+
 ![This image shows the result of the refactoring table runtime in seconds for the 2017 data](resources/VBA_Challenge_2017.PNG)
+
 The following image shows the result of the refactoring table runtime in seconds for the 2017 original data using module 2 study code
+
 ![The following image shows the result of the refactoring table runtime in seconds for the 2017 original data using module 2 study code ](resources/2017_orig_stockanalysisRuntime.PNG)
 
 In the original module code it takes 0.9726 seconds to create the volume table for each ticker using 2018 data but in the refactored vbs code it takes 0.1171 seconds to create the volume table for each ticker using 2018 data.It runs faster with the vb script code; about 0.8555 seconds faster for the 2018 data.
 
 This image shows the result of the refactoring table and runtime in seconds calculated for the 2018 data
+
 ![This image shows the result of the refactoring table and runtime in seconds calculated for the 2018 data](resources/2018_refactored_stockanalysistable.PNG)
+
 This image shows the result of the refactoring table runtime in seconds for the 2018 data
+
 ![This image shows the result of the refactoring table runtime in seconds for the 2018 data](resources/VBA_Challenge_2017.PNG)
+
 The following image shows the result of the refactoring table runtime in seconds for the 2018 original data using module 2 study code
+
 ![The following image shows the result of the refactoring table runtime in seconds for the 2018 original data using module 2 study code ](resources/2018_orig_stockanalysisRuntime.PNG)
 
 The below images show the refactored code in vb script file. As you can see the comments are in place to explain the code. Initializations done correctly and loop counters and arrays are set to store first and last close values for each ticker which in the end saves us runtime.
